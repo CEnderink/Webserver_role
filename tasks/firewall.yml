@@ -1,0 +1,12 @@
+---
+- name: Open SSH port in Firewall
+  ufw:
+    rule: allow
+    name: "OpenSSH"
+    state: enabled
+    
+- name: Open Apache port in Firewall
+  ufw:
+    rule: allow
+    name: "Apache Full"
+    state: enabled

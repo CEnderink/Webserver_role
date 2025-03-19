@@ -1,1 +1,6 @@
+---
+- name: Install Apache and PHP
+  include_tasks: install.yml
 
+- name: Configure Firewall
+  include_tasks: firewall.yml
