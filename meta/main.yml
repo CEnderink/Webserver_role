@@ -5,6 +5,7 @@ galaxy_info:
   description: "Installeert en configureert een webserver (bijvoorbeeld Nginx of Apache)."
   license: "MIT"
   min_ansible_version: "2.9"
+  github_branch: main
   platforms:
     - name: Ubuntu
       versions:
